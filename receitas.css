@@ -1,0 +1,30 @@
+.receitas-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-img-top {
+    height: 150px;
+    object-fit: cover;
+}
+
+.card-text ul {
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+.card-text p {
+    font-size: 0.9em;
+} 
